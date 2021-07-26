@@ -89,6 +89,7 @@ body {
     
 }
 .burger-menu button {
+    color: rgb(245, 245, 245);
     border: none;
     background-color: transparent;
     margin: -5px 0 0 0;
