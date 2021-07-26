@@ -185,11 +185,6 @@ p {
 }
 
 
-
-.contenedor-txt-img {
-    padding: 60px;
-}
-
 .copyright {
     font-weight: bold;
     color: #3a3838; 
@@ -253,6 +248,9 @@ label.field {
 @media (min-width: 361px) {
     .copy-header {
         margin: 20px auto;
+    }
+    .contenedor-txt-img {
+        padding: 24px;
     }
 }
 @media (max-width: 600px) {
@@ -361,6 +359,10 @@ label.field {
     .contenedor-abajo {
         display: flex;
     }
+    .contenedor-txt-img {
+        padding: 30px;
+    }
+    
     /* register */
     form {
         margin: 30px 100px;
@@ -372,11 +374,15 @@ label.field {
     .checkbox label {
         margin-right: 30px;
     }
+    
 }
 
 @media (min-width: 992px){
     .container {
         width: 970px;
+    }
+    .contenedor-txt-img {
+        padding: 60px;
     }
 }
 
